@@ -1,0 +1,25 @@
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.5.0 < 0.9.0;
+
+contract calculate{
+    int public num1=10;
+    int public num2=20;
+
+    function add() public view returns(int){
+        return num1+num2;
+        
+    }
+    function subtract() public view returns(int){
+        return num1-num2;
+
+    }
+    function multiply() public view returns(int){
+        return num1*num2;
+
+    }
+    function divide() public view returns(int){
+        return num2/num1;
+
+    }
+   
+}
